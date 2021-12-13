@@ -1,0 +1,39 @@
+.always-client-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-title-color);
+    margin-bottom: 50px;
+}
+
+.always-client-list {
+    display: flex;
+    margin-top: 0 auto;
+    justify-content: space-between;
+}
+
+.always-client-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    &:hover {
+        border-color: var(--logo-hover-color);
+     }
+}
+.always-client-link {
+    transition: 250ms var(--cubic);
+    display: flex;
+}
+
+.always-client-icon {
+    fill: #AFB1B8;
+    margin: 16px 32px 16px 32px;
+    transition: 250ms var(--cubic);
+    .always-client-link:hover & {
+        fill: var(--logo-hover-color);
+    }
+}

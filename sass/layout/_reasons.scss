@@ -1,0 +1,38 @@
+.reasons {
+    padding-top: 0;
+}
+.reasons-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-title-color);
+}
+
+.reasons-list {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.reasons-item {
+    position: relative;
+}
+.reasons-third-title {
+    position: absolute;
+    top: 225px;
+    left: 0;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-title-color);
+    width: 100%;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background-color: rgba(47, 48, 58, 0.8);
+
+}
