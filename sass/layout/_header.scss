@@ -24,9 +24,7 @@
 
 .header-logo {
     color: var(--logo-hover-color);
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.2;
+    @include font(26px, 1.2, 0.03em, bold);
     font-family: 'raleway';
     margin-right: 93px;
     padding-top: 25px;
@@ -34,10 +32,8 @@
 }
 .header-studio {
     color: var(--second-title-color);
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.2;
     font-family: 'raleway';
+    @include font(26px, 1.2, 0.03em, bold);
 }
 
 .header-list {
@@ -51,10 +47,7 @@
     }
 }
 .header-link {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.15;
-    letter-spacing: 0.02em;
+    @include font(14px, 1.15, 0.02em, 500);
     color: var(--second-title-color);
     transition: 250ms var(--cubic);
     position: relative;
@@ -74,11 +67,7 @@
 }
 
 .header-contacts {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.15;
-    letter-spacing: 0.02em;
+    @include font(14px, 1.15, 0.02em, 500);
     color: var(--first-text-color);
     display: flex;
     justify-content: center;

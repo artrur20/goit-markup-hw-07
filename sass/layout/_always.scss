@@ -1,9 +1,6 @@
 .always-client-title {
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1.16;
     text-align: center;
-    letter-spacing: 0.03em;
+    @include font(36px, 1.16, 0.03em, bold);
     color: var(--second-title-color);
     margin-bottom: 50px;
 }

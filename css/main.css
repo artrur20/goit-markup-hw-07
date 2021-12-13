@@ -54,11 +54,11 @@ button {
 }
 
 .hero-btn {
-  font-weight: bold;
+  text-align: center;
   font-size: 16px;
   line-height: 1.9;
-  text-align: center;
   letter-spacing: 0.06em;
+  font-weight: bold;
   color: var(--main-title-color);
   background-color: #2196F3;
   width: 200px;
@@ -304,9 +304,10 @@ button {
 
 .header-logo {
   color: var(--logo-hover-color);
-  font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
+  font-weight: bold;
   font-family: 'raleway';
   margin-right: 93px;
   padding-top: 25px;
@@ -315,10 +316,11 @@ button {
 
 .header-studio {
   color: var(--second-title-color);
-  font-weight: bold;
+  font-family: 'raleway';
   font-size: 26px;
   line-height: 1.2;
-  font-family: 'raleway';
+  letter-spacing: 0.03em;
+  font-weight: bold;
 }
 
 .header-list {
@@ -336,10 +338,10 @@ button {
 }
 
 .header-link {
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
+  font-weight: 500;
   color: var(--second-title-color);
   -webkit-transition: 250ms var(--cubic);
   transition: 250ms var(--cubic);
@@ -362,11 +364,10 @@ button {
 }
 
 .header-contacts {
-  font-style: normal;
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
+  font-weight: 500;
   color: var(--first-text-color);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -410,12 +411,12 @@ button {
 }
 
 .hero-title {
-  font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  letter-spacing: 0.06em;
+  font-weight: 900;
   color: var(--main-title-color);
   text-align: center;
-  letter-spacing: 0.06em;
   text-transform: uppercase;
   padding-bottom: 40px;
 }
@@ -457,19 +458,19 @@ button {
 }
 
 .about-third-title {
-  font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  font-weight: bold;
   text-transform: uppercase;
   color: var(--second-title-color);
 }
 
 .about-text {
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  font-weight: normal;
   color: var(--first-text-color);
   margin-top: 10px;
   width: 270px;
@@ -525,11 +526,11 @@ button {
 }
 
 .masters-title {
-  font-weight: bold;
   font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
+  line-height: 1169;
   letter-spacing: 0.03em;
+  font-weight: bold;
+  text-align: center;
   color: var(--second-title-color);
 }
 
@@ -604,30 +605,30 @@ button {
 }
 
 .masters-third-title {
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  text-align: center;
   letter-spacing: 0.03em;
+  font-weight: 500;
+  text-align: center;
   color: var(--second-title-color);
 }
 
 .masters-text {
-  font-weight: normal;
+  text-align: center;
   font-size: 16px;
   line-height: 1.18;
-  text-align: center;
   letter-spacing: 0.03em;
+  font-weight: normal;
   color: var(--first-text-color);
   padding-top: 10px;
 }
 
 .always-client-title {
-  font-weight: bold;
+  text-align: center;
   font-size: 36px;
   line-height: 1.16;
-  text-align: center;
   letter-spacing: 0.03em;
+  font-weight: bold;
   color: var(--second-title-color);
   margin-bottom: 50px;
 }
@@ -699,12 +700,12 @@ button {
 }
 
 .footer-third-title {
-  font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  font-weight: bold;
   text-align: left;
   vertical-align: top;
-  letter-spacing: 0.03em;
   color: var(--main-title-color);
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -757,19 +758,19 @@ button {
 
 .footer-logo {
   font-family: Raleway;
-  font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  font-weight: bold;
   color: var(--logo-hover-color);
 }
 
 .footer-studio {
   font-family: Raleway;
-  font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  font-weight: bold;
   color: var(--main-title-color);
 }
 
@@ -786,11 +787,10 @@ button {
 }
 
 .footer-address-map {
-  font-weight: normal;
-  font-style: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  font-weight: normal;
   color: var(--main-title-color);
   -webkit-transition: 250ms var(--cubic);
   transition: 250ms var(--cubic);
@@ -801,11 +801,10 @@ button {
 }
 
 .footer-address-mail {
-  font-weight: normal;
-  font-style: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  font-weight: normal;
   color: rgba(255, 255, 255, 0.6);
   -webkit-transition: 250ms var(--cubic);
   transition: 250ms var(--cubic);
@@ -816,11 +815,10 @@ button {
 }
 
 .footer-address-tel {
-  font-weight: normal;
-  font-style: normal;
   font-size: 14px;
-  line-height: 1,7;
+  line-height: 1.7;
   letter-spacing: 0.03em;
+  font-weight: normal;
   color: rgba(255, 255, 255, 0.6);
   -webkit-transition: 250ms var(--cubic);
   transition: 250ms var(--cubic);
@@ -847,10 +845,10 @@ button {
 }
 
 .footer-right-title {
-  font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
+  font-weight: bold;
   text-transform: uppercase;
   color: var(--main-title-color);
   margin-bottom: 20px;
@@ -882,13 +880,11 @@ button {
 }
 
 .footer-btn-title {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
-  text-align: center;
+  line-height: 1.9;
   letter-spacing: 0.06em;
+  font-weight: bold;
+  text-align: center;
   color: var(--main-title-color);
   margin-right: 10px;
 }

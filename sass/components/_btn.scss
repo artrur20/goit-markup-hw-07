@@ -1,6 +1,9 @@
 .hero-btn {
     text-align: center;
-    @include font(16px, 1.9, 0.06em, bold);
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    font-weight: bold;
     @extend %aline-list;
     color: var(--main-title-color);
     background-color: #2196F3;

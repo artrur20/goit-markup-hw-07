@@ -24,19 +24,13 @@
 
 
 .about-third-title {
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
+     @include font(14px, 1.14, 0.03em, bold);
     text-transform: uppercase;
     color: var(--second-title-color);
 }
 
 .about-text {
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
+    @include font(14px, 1.7, 0.03em, normal);
     color: var(--first-text-color);
     margin-top: 10px;
     width: 270px;

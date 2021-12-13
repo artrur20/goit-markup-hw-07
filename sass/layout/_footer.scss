@@ -13,12 +13,9 @@
 }
 
 .footer-third-title {
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 16px;
+    @include font(14px, 1.14, 0.03em, bold);
     text-align: left;
     vertical-align: top;
-    letter-spacing:  0.03em;
     color: var(--main-title-color);
     text-transform: uppercase;
     margin-bottom: 20px;
@@ -53,19 +50,13 @@
 }
 .footer-logo {
     font-family: Raleway;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+    @include font(26px, 1.19, 0.03em, bold);
     color: var(--logo-hover-color);
     }
 
 .footer-studio {
     font-family: Raleway;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+    @include font(26px, 1.19, 0.03em, bold);
     color: var(--main-title-color)
 }
 
@@ -80,11 +71,7 @@
     }
 }
 .footer-address-map {
-    font-weight: normal;
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
+    @include font(14px, 1.7, 0.03em, normal);
     color: var(--main-title-color);
     transition: 250ms var(--cubic);
     &:hover {
@@ -92,11 +79,7 @@
     }
 }
 .footer-address-mail {
-    font-weight: normal;
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
+    @include font(14px, 1.7, 0.03em, normal);
     color: rgba(255, 255, 255, 0.6);
     transition: 250ms var(--cubic);
     &:hover {
@@ -105,11 +88,7 @@
 }
 
 .footer-address-tel {
-    font-weight: normal;
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1,7;
-    letter-spacing: 0.03em;
+    @include font(14px, 1.7, 0.03em, normal);
     color:rgba(255, 255, 255, 0.6);
     transition: 250ms var(--cubic);
     &:hover {
@@ -127,10 +106,7 @@
 }
 
 .footer-right-title {
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
+    @include font(14px, 1.14, 0.03em, bold);
     text-transform: uppercase;
     color: var(--main-title-color);
     margin-bottom: 20px;
@@ -160,14 +136,9 @@
     border: none;
 }
 .footer-btn-title  {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 30px;
+    @include font(16px, 1.9, 0.06em, bold);
     @extend %aline-list;
     text-align: center;
-    letter-spacing: 0.06em;
     color: var(--main-title-color);
     margin-right: 10px;
 }

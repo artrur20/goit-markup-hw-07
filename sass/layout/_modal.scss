@@ -46,11 +46,8 @@
 }
 
 .modal-title {
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 23px;
     text-align: center;
-    letter-spacing: 0.03em;
+    @include font(20px, 1.15, 0.03em, bold);
     color: var(--second-title-color);
     margin-bottom: 12px;
 }
@@ -61,10 +58,7 @@
 }
 
 .modal-input-text {
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 1,16;
-    letter-spacing: 0.01em;
+    @include font(12px, 1.16, 0.01em, normal);
     color: var(--first-text-color);
 }
 
@@ -120,12 +114,7 @@
     }
 }
 .modal-check-text {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
+    @include font(14px, 1.7, 0.03em, normal);
     color: var(--first-text-color);
     @extend %aline-list;
     justify-content: center;
@@ -143,11 +132,7 @@
 
 .modal-check-link {
     color: var(--logo-hover-color);
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1,7;
+    @include font(14px, 1.7, 0.03em, normal);
     letter-spacing: 0.03em;
     margin-left: 5px;
 }
