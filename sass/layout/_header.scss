@@ -3,13 +3,11 @@
 }
 
 .heder-nav {
-    display: flex;
-    align-items: center;
+    @extend %aline-list;
 }
 
 .header-conteiner {
-    display: flex;
-    align-items: center;
+    @extend %aline-list;
     justify-content: space-between;
 }
 

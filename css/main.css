@@ -54,18 +54,11 @@ button {
 }
 
 .hero-btn {
-  font-family: Roboto;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.9;
   text-align: center;
   letter-spacing: 0.06em;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   color: var(--main-title-color);
   background-color: #2196F3;
   width: 200px;
@@ -113,12 +106,6 @@ button {
   background-color: transparent;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -232,12 +219,6 @@ button {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: var(--first-text-color);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -288,26 +269,20 @@ button {
   margin-top: 30px;
 }
 
+.hero-btn, .modal-close, .modal-check-text, .heder-nav, .header-conteiner, .footer-btn, .footer-btn-title, .footer-btn-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .header {
   border-bottom: 1px solid #ECECEC;
 }
 
-.heder-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .header-conteiner {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -893,12 +868,6 @@ button {
 }
 
 .footer-btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   background-color: #2196F3;
   width: 200px;
   height: 50px;
@@ -918,12 +887,6 @@ button {
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--main-title-color);
@@ -931,12 +894,6 @@ button {
 }
 
 .footer-btn-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;

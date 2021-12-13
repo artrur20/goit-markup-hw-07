@@ -1,12 +1,7 @@
 .hero-btn {
-    font-family: Roboto;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 1.9;
     text-align: center;
-    letter-spacing: 0.06em;
-    display: flex;
-    align-items: center;
+    @include font(16px, 1.9, 0.06em, bold);
+    @extend %aline-list;
     color: var(--main-title-color);
     background-color: #2196F3;
     width: 200px;
