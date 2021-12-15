@@ -3,7 +3,7 @@
 }
 
 
-.masters-title {
+.masters__title {
     @include font(36px, 1.16, 0.03em, bold);
     text-align: center;
     color: var(--second-title-color);
@@ -16,17 +16,17 @@
     justify-content: space-between;
 }
 
-.masters-item {
+.masters-list__item {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
 }
 
-.masters-name {
+.masters-list__name {
     padding: 30px 60px 16px 60px;
     background-color: var(--main-title-color);
 }
 
-.masters-social-list {
+.masters-list__socials {
     display: flex;
     margin: 0 auto;
     justify-content: center;
@@ -34,7 +34,7 @@ border-radius: 0px 0px 4px 4px;
     padding: 0px 32px 30px 32px;
     background-color: var(--main-title-color);
 }
-.master-social-link {
+.socials__link {
     border-radius: 50%;
     width: 44px;
     height: 44px;
@@ -45,21 +45,21 @@ border-radius: 0px 0px 4px 4px;
     &:hover {
         background-color: var(--logo-hover-color);
     }
-    &:hover .masters-social-icon {
+    &:hover .socials__icon {
         fill: var(--main-title-color);
     }
 }
-.masters-social-icon {
+.socials__icon {
     fill: #AFB1B8;
     transition: 250ms var(--cubic);
 }
-.masters-third-title {
+.masters-list__title {
     @include font(16px, 1.18, 0.03em, 500);
     text-align: center;
     color: var(--second-title-color);
 }
 
-.masters-text {
+.masters-list__text {
     text-align: center;
     @include font(16px, 1.18, 0.03em, normal);
     color: var(--first-text-color);

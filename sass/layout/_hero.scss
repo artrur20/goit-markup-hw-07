@@ -11,7 +11,7 @@
 }
 
 
-.hero-title {
+.hero__title {
     @include font(44px, 1.36, 0.06em, 900);
     color: var(--main-title-color);
     text-align: center;

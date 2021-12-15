@@ -1,15 +1,15 @@
-.about-title {
+.about-conteiner__title {
     display: none;
 }
 
-.about-icon-list {
+.about-conteiner__list {
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
     margin-bottom: 30px;
 }
 
-.about-icon-item {
+.about-conteiner__item {
     padding: 25px 100px 25px 100px;
     align-items: center;
     justify-content: center;
@@ -23,13 +23,13 @@
 }
 
 
-.about-third-title {
+.about-list__title {
      @include font(14px, 1.14, 0.03em, bold);
     text-transform: uppercase;
     color: var(--second-title-color);
 }
 
-.about-text {
+.about-list__text {
     @include font(14px, 1.7, 0.03em, normal);
     color: var(--first-text-color);
     margin-top: 10px;
