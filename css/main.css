@@ -265,7 +265,7 @@ button {
   margin-top: 30px;
 }
 
-.hero__btn, .modal__close, .modal__check-text, .heder-nav, .header-conteiner, .footer-right-wrap__btn, .sub__btn-title, .sub__btn-content {
+.hero__btn, .modal__close, .modal__check-text, .heder-nav, .header-conteiner, .footer-right-wrap__btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -856,6 +856,7 @@ button {
   height: 50px;
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
   padding-left: 16px;
   margin-right: 12px;
   outline: none;
@@ -869,27 +870,25 @@ button {
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: auto;
-  border: none;
-}
-
-.sub__btn-title {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
   font-weight: bold;
-  text-align: center;
   color: var(--main-title-color);
-  margin-right: 10px;
 }
 
-.sub__btn-content {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.sub__btn-icon {
+  margin-left: 10px;
 }
 
 .content__title {
@@ -922,13 +921,14 @@ button {
   font-weight: 500;
   color: var(--second-title-color);
   background-color: #F5F4FA;
+  border-radius: 4px;
   border: none;
   padding: 6px 22px 6px 22px;
   -webkit-transition: 250ms var(--cubic);
   transition: 250ms var(--cubic);
 }
 
-.content-list__btn:hover {
+.content-list__btn:hover, .content-list__btn:focus {
   color: var(--main-title-color);
   background-color: var(--logo-hover-color);
 }
@@ -958,7 +958,7 @@ button {
   transition: 250ms var(--cubic);
 }
 
-.main-content__link:hover {
+.main-content__link:hover, .main-content__link:focus {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -1013,6 +1013,11 @@ button {
 }
 
 .main-content__item:hover .main-content__text {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.main-content__item:focus .main-content__text {
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
